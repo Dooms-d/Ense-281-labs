@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+
+body {
+    padding-top: 10px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    font-weight: 100;
+}
+
+
+
+.log-in-and-sign-up-page{
+    margin: 0 auto;
+    padding-top:20px;
+    background-color: rgb(223, 240, 255);
+    width: 50%;
+    max-width: 700px;
+    border-style:solid ;
+    border-color: black;
+    border-radius: 10px;}
+
+.container{
+    margin: 0 auto;
+    margin-bottom: 30px;
+    padding:20px;
+    background-color: rgb(223, 240, 255);
+    width: 50%;
+    max-width: 400px;
+    border-style:solid ;
+    border-color: black;
+    border-radius: 10px;} 
+
+.vote-count{
+    margin: 0 auto;
+    padding:20px;
+    background-color: rgb(223, 240, 255);
+    width: 50%;
+    max-width: 500px;
+    border-style:solid ;
+    border-color: black;
+    border-radius: 10px;} 
+
+.vote-row{
+    margin: 0 auto;
+    padding:5px;
+}
+
+.user-info{
+    padding:5px;
+}
+.submit{
+    padding: 5px;
+    margin-top:7px;
+    margin-bottom: 5px;
+}
+
+.vote-btn{
+ padding-right: 5px;
+ padding-left: 5px;
+ margin: 2px;
+}
