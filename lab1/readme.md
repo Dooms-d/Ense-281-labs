@@ -1,11 +1,8 @@
 # Ense 281 lab 1
-### Demo for lab 1
+### lab 1
 
--this is a repo for lab 1
-it will have tree files in the end
+- this is a repo for lab 1
+- it will have tree files in the end
 
-
-```py
+```python
 print (hello world)
-
-for in rang (30)
