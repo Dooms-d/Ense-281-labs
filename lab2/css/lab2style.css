@@ -1,63 +1,103 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    background-color: #f8f9fa; /* Light grey background from screenshot */
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.page-title {
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #333;
+}
+
+.accordion {
+    width: 100%;
+    max-width: 450px; /* Limits width to look like a card */
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Adds the soft shadow */
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.accordion-body {
+    padding: 30px;
+    background-color: white;
+    text-align: center;
+}
+
+/* Fix the inputs to look like the screenshot */
+.accordion-body input {
+    margin-bottom: 15px;
+    width: 100%;
+}
 
 
 body {
-    padding-top: 10px;
-    text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: medium;
-    font-weight: 100;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f2f5 !important;
 }
 
-
-
-.log-in-and-sign-up-page{
-    margin: 0 auto;
-    padding-top:20px;
-    background-color: rgb(223, 240, 255);
-    width: 50%;
-    max-width: 700px;
-    border-style:solid ;
-    border-color: black;
-    border-radius: 10px;}
-
-.container{
-    margin: 0 auto;
-    margin-bottom: 30px;
-    padding:20px;
-    background-color: rgb(223, 240, 255);
-    width: 50%;
-    max-width: 400px;
-    border-style:solid ;
-    border-color: black;
-    border-radius: 10px;} 
-
-.vote-count{
-    margin: 0 auto;
-    padding:20px;
-    background-color: rgb(223, 240, 255);
-    width: 50%;
-    max-width: 500px;
-    border-style:solid ;
-    border-color: black;
-    border-radius: 10px;} 
-
-.vote-row{
-    margin: 0 auto;
-    padding:5px;
+.page-title {
+    font-weight: 300;
+    font-size: 2.5rem;
+    color: #444;
 }
 
-.user-info{
-    padding:5px;
-}
-.submit{
-    padding: 5px;
-    margin-top:7px;
-    margin-bottom: 5px;
+.main-wrapper {
+    max-width: 650px;
 }
 
-.vote-btn{
- padding-right: 5px;
- padding-left: 5px;
- margin: 2px;
+/* User Status Card (Top) */
+.user-status-card {
+    max-width: 450px;
+    border-radius: 10px;
+    border: 1px solid #dee2e6;
+}
+
+/* Main Note Container */
+.note-container-card {
+    border-radius: 12px;
+    border: 1px solid #d1d9e0;
+    background-color: #f1f4f8; /* Light blueish tint from image */
+}
+
+/* Individual Note Styling */
+.input-group .form-control {
+    border: 1px solid #ced4da;
+    color: #444;
+}
+
+/* Vote Buttons Styling */
+.vote-btn {
+    width: 45px;
+    font-weight: bold;
+}
+
+.btn-success {
+    background-color: #198754 !important; /* Green for upvote */
+}
+
+.btn-danger {
+    background-color: #dc3545 !important; /* Red for downvote */
+}
+
+/* Vote Count Box */
+.vote-count, .vote-count-only {
+    width: 40px;
+    justify-content: center;
+    background-color: #e9ecef !important;
+    font-weight: 500;
+}
+
+.vote-count-only {
+    border-left: 1px solid #ced4da;
+}
+
+h1 {
+  text-align: center;  
 }
