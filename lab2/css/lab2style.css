@@ -22,6 +22,7 @@ body {
     box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Adds the soft shadow */
     border-radius: 8px;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .accordion-body {
@@ -48,9 +49,7 @@ body {
     color: #444;
 }
 
-.main-wrapper {
-    max-width: 650px;
-}
+
 
 /* User Status Card (Top) */
 .user-status-card {
