@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+body {
+    background-color: #f0f2f5 !important;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.note-container-card {
+    border-radius: 12px;
+    border: 1px solid #d1d9e0;
+    background-color: #f1f4f8; 
+    width: 100%;
+    max-width: 600px;
+}
+
+.vote-btn, .vote-up, .vote-down {
+    width: 45px;
+    font-weight: bold;
+    transition: all 0.2s ease;
+}
+
+.btn-success {
+    background-color: #198754 !important; 
+    color: white !important;
+    border-color: #198754 !important;
+}
+
+.btn-danger {
+    background-color: #dc3545 !important;
+    color: white !important;
+    border-color: #dc3545 !important;
+}
+
+.btn-outline-secondary {
+    background-color: white;
+    color: #6c757d;
+}
+
+.vote-count {
+    width: 50px;
+    justify-content: center;
+    background-color: #e9ecef !important;
+    font-weight: 600;
+    border-left: 1px solid #ced4da;
+    display: flex;
+    align-items: center;
+}
+
+.page-title {
+    margin-bottom: 30px;
+    font-weight: 300;
+    color: #333;
+    font-size: 2.5rem;
+}
+
+#current-user-display {
+    font-weight: 600;
+}

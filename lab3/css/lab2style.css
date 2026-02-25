@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
 
 body {
-    background-color: #f8f9fa; /* Light grey background from screenshot */
+    background-color: #f8f9fa;
     font-family: 'Poppins', sans-serif;
     display: flex;
     flex-direction: column;
@@ -18,8 +18,8 @@ body {
 
 .accordion {
     width: 100%;
-    max-width: 450px; /* Limits width to look like a card */
-    box-shadow: 0 10px 25px rgba(0,0,0,0.1); /* Adds the soft shadow */
+    max-width: 450px; 
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1); 
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 10px;
@@ -31,7 +31,7 @@ body {
     text-align: center;
 }
 
-/* Fix the inputs to look like the screenshot */
+
 .accordion-body input {
     margin-bottom: 15px;
     width: 100%;
@@ -51,27 +51,27 @@ body {
 
 
 
-/* User Status Card (Top) */
+
 .user-status-card {
     max-width: 450px;
     border-radius: 10px;
     border: 1px solid #dee2e6;
 }
 
-/* Main Note Container */
+
 .note-container-card {
     border-radius: 12px;
     border: 1px solid #d1d9e0;
-    background-color: #f1f4f8; /* Light blueish tint from image */
+    background-color: #f1f4f8; 
 }
 
-/* Individual Note Styling */
+
 .input-group .form-control {
     border: 1px solid #ced4da;
     color: #444;
 }
 
-/* Vote Buttons Styling */
+
 .vote-btn {
     width: 45px;
     font-weight: bold;
@@ -84,7 +84,7 @@ body {
 .btn-danger {
     background-color: #dc3545 !important; /* Red for downvote */
 }
-
+g
 /* Vote Count Box */
 .vote-count, .vote-count-only {
     width: 40px;
